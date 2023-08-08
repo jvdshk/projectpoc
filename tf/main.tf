@@ -27,3 +27,4 @@ resource "aws_lambda_function" "tmdb_lambda_function" {
   role = aws_iam_role.lambda_role.arn
   handler = "tmdb_api.lambda_handler"
   runtime = "python3.9"
+}  
